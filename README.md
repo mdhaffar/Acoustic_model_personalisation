@@ -10,9 +10,9 @@ The two other parts called perso1 and perso2 are used for 2 distinct trials of m
 
 2/ Methodology:
 
-A - Train a generic acoustic model (use the script )
+A - Train a generic acoustic model (use the TEDLIUM Kaldi recipe)
 
-B - For all data in perso1 and perso2 FineTune the generic acoustic model using only the 5 first minutes (use the script )
+B - For all data in perso1 and perso2 : FineTune the generic acoustic model using only the 5 first minutes (use the script )
 
 C - 
 
