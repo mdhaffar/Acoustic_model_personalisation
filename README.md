@@ -8,6 +8,9 @@ The first part is called generic and has been used to train an initial acoustic 
 The two other parts called perso1 and perso2 are used for 2 distinct trials of model personalization and evaluation.
 
 
-2/ 
+2/ Methodology:
+A - Train a generic acoustic model
+B - For all data in perso1 and perso2 FineTune the generic acoustic model using only the 5 first minutes (use the script )
+C - 
 
 
