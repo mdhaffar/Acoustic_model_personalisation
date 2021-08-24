@@ -1,11 +1,10 @@
 #!/usr/bin/env bash
 #author: Salima Mdhaffar (Monday 2 Nov 23:06)
-#LIA Avigonon university
+#LIA Avigonon University
 
 #before runing this script run:
 #/nnet3-am-copy --raw=true ../s5_r3/exp/chain_cleaned_1d/tdnn1d_sp/final.mdl nnet_final.raw
-#nnet3-init Funetining/configs/init.config Funetining/configs/init.raw
-#to convert generic acoustic model to .raw
+#nnet3-init Funetining/configs/init.config Funetining/configs/init.raw to convert generic acoustic model to .raw
 
 #./exp/tri3 ./data/lang are reportory from the generic acoustic model
 source path.sh
