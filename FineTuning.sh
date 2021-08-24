@@ -6,9 +6,11 @@
 #nnet3-init Funetining/configs/init.config Funetining/configs/init.raw
 #to convert generic acoustic model to .raw
 
+#./exp/tri3 ./data/lang are reportory from the generic acoustic model
 source path.sh
 stm_file=$(ls ./stm_div/) #
- for dset in $stm_file; do
+$rep_out = #
+for dset in $stm_file; do
     #prepare data
     utils/data/modify_speaker_info.sh --seconds-per-spk-max 180 data/${dset}.orig $rep_out/data/${dset}
     rm -r data/${dset}.orig
@@ -62,4 +64,13 @@ stm_file=$(ls ./stm_div/) #
     mkdir $rep_out/Transfer_Learning/Funetuning_v2_512_${dset}/configs
 
     cp ./exp/chain_cleaned_1d/tdnn1d_sp/configs/network.xconfig $rep_out/Transfer_Learning/Funetuning_v2_512_${dset}/configs
+    
+    steps/nnet3/xconfig_to_configs.py --xconfig-file $rep_out/Transfer_Learning/Funetuning_v2_512_${dset}/configs/network.xconfig --config-dir $rep_out/Transfer_Learning/Funetuning_v2_512_${dset}/configs
+
+    dropout_schedule='0,0@0.20,0.5@0.50,0'
+    common_egs_dir=  # you can dset this to use previously dumped egs.
+    train_stage=-10
+    chain_opts=(--chain.alignment-subsampling-factor=3 --chain.left-tolerance=1 --chain.right-tolerance=1)
+    steps/nnet3/chain/train.py --stage $train_stage ${chain_opts[@]} --use-gpu "yes" --cmd run.pl --trainer.input-model ../new_division_data_tdnn/exp/chain_cleaned_1d/tdnn4d_sp/nnet_final_512.raw --feat.online-ivector-dir $rep_out/data/ivectors_$dset --feat.cmvn-opts="--config=conf/online_cmvn.conf" --chain.xent-regularize 0.1 --chain.leaky-hmm-coefficient 0.1 --chain.l2-regularize 0.0 --chain.apply-deriv-weights false --chain.lm-opts="--num-extra-lm-states=2000" --trainer.dropout-schedule $dropout_schedule --trainer.add-option="--optimization.memory-compression-level=2" --egs.dir "$common_egs_dir" --egs.nj 1 --egs.opts "--frames-overlap-per-eg 0" --egs.chunk-width 150,110,100 --trainer.num-chunk-per-minibatch 32 --trainer.frames-per-iter 5000000 --trainer.num-epochs 3 --trainer.optimization.num-jobs-initial 1 --trainer.optimization.num-jobs-final 1 --trainer.optimization.initial-effective-lrate 0.000025 --trainer.optimization.final-effective-lrate 0.000015 --trainer.max-param-change 2.0 --cleanup.remove-egs true --feat-dir $rep_out/data/train_cleaned_${dset}_sp_hires --tree-dir ./exp/chain_cleaned_1d/tree_bi --lat-dir $rep_out/data/lat_$dset --dir $rep_out/Transfer_Learning/Funetuning_v2_512_$dset
+done
  
