@@ -13,7 +13,3 @@ The two other parts called perso1 and perso2 are used for 2 distinct trials of m
 A - Train a generic acoustic model (use the TEDLIUM Kaldi recipe) with changing the data (use only the data in the file Files_Names_Generic_model)
 
 B - For all data in perso1 and perso2 : FineTune the generic acoustic model using only the 5 first minutes (use the script FineTuning.sh)
-
-C - 
-
-
