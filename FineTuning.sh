@@ -8,7 +8,7 @@
 
 #./exp/tri3 ./data/lang are reportory from the generic acoustic model
 source path.sh
-stm_file=$(ls ./stm_div/) #
+stm_file=$(ls ./stm_perso1/) #change this line with the path of stm data (for perso1 and perso2)
 $rep_out = #
 for dset in $stm_file; do
     #prepare data
