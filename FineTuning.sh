@@ -3,7 +3,7 @@
 #LIA Avignon University
 
 #before runing this script run:
-#/nnet3-am-copy --raw=true ../s5_r3/exp/chain_cleaned_1d/tdnn1d_sp/final.mdl nnet_final.raw
+#/nnet3-am-copy --raw=true path_to_gerenric_model(trained with the first part of data)/final.mdl nnet_final.raw
 #nnet3-init Funetining/configs/init.config Funetining/configs/init.raw to convert generic acoustic model to .raw
 
 #./exp/tri3 ./data/lang are reportory from the generic acoustic model
