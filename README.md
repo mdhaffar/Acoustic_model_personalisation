@@ -22,11 +22,11 @@ Salima Mdhaffar, Marc Tommasi, and Yannick Estève, "Study on acoustic model per
 
 3/ Acoustic models with ivectors:
 
-Acoustic models for perso1/session1 (https://github.com/mdhaffar/Acoustic_model_personalisation/releases/tag/V0.0.1).
+Acoustic models for perso1/session1 
 
 Acoustic models for perso1/session2.
 
-Acoustic models for perso2/session1.
+Acoustic models for perso2/session1 (https://github.com/mdhaffar/Acoustic_model_personalisation/releases/tag/V0.0.1).
 
 Acoustic models for perso2/session2.
 
