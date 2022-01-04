@@ -20,8 +20,16 @@ B - For all data in perso1 and perso2 : FineTune the generic acoustic model usin
 
 Salima Mdhaffar, Marc Tommasi, and Yannick Estève, "Study on acoustic model personalization in a ontext of collaborative learning constrained by privacy preservation", 23th International Conference on Speech and Computer (SPECOM 2021), September 2021, ST. PETERSBURG, RUSSIA
 
-3/ Acoustic models with ivectors
+3/ Acoustic models with ivectors:
 Acoustic models for perso1/session1 (https://github.com/mdhaffar/Acoustic_model_personalisation/releases/tag/V0.0.1).
 Acoustic models for perso1/session2.
 Acoustic models for perso2/session1.
 Acoustic models for perso2/session2.
+
+4/ Acoustic models without ivectors:
+Acoustic models for perso1/session1 ().
+Acoustic models for perso1/session2.
+Acoustic models for perso2/session1.
+Acoustic models for perso2/session2.
+
+5/ Generic acoustic model:
