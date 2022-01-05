@@ -41,3 +41,7 @@ Acoustic models for perso2/session1.
 Acoustic models for perso2/session2.
 
 5/ Generic acoustic model:
+
+Generic acoustic model with i-vectors: 
+
+Generic acoustic model without i-vectors:
