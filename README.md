@@ -42,6 +42,6 @@ Acoustic models for perso2/session2.
 
 5/ Generic acoustic model:
 
-Generic acoustic model with i-vectors: 
+Generic acoustic model with i-vectors: [[Generic_model_with_ivectors]](https://github.com/mdhaffar/Acoustic_model_personalisation/releases/tag/V.0.5.0)
 
 Generic acoustic model without i-vectors:
