@@ -46,4 +46,4 @@ Generic acoustic model with i-vectors: [[Generic_model_with_ivectors]](https://g
 
 Generic acoustic model without i-vectors:
 
-To extract textual informations (weights/parameters) from mdl files, please run this command nnet3-am-copy --raw=true --binary=false file_input.mdl file_output.mdl
+To extract textual informations (weights/parameters) from mdl files, please run this command: nnet3-am-copy --raw=true --binary=false file_input.mdl file_output.mdl
