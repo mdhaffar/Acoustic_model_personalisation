@@ -38,7 +38,7 @@ Acoustic models for perso1/session2 [[Models_perso1_sessions2_without_ivectors]]
 
 Acoustic models for perso2/session1 [[Models_perso2_sessions1_without_ivectors]](https://github.com/mdhaffar/Acoustic_model_personalisation/releases/tag/V0.0.1)
 
-Acoustic models for perso2/session2 [[Models_perso2_sessions2_without_ivectors]](https://github.com/mdhaffar/Acoustic_model_personalisation/releases/tag/V.0.1.0).
+Acoustic models for perso2/session2 [[Models_perso2_sessions2_without_ivectors]](https://github.com/mdhaffar/Acoustic_model_personalisation/releases/tag/V.0.7.0).
 
 5/ Generic acoustic model:
 
