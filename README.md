@@ -32,7 +32,7 @@ Acoustic models for perso2/session2: [[Models_perso2_sessions2_with_ivectors]](h
 
 4/ Acoustic models without ivectors:
 
-Acoustic models for perso1/session1 ().
+Acoustic models for perso1/session1 
 
 Acoustic models for perso1/session2.
 
