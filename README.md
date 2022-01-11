@@ -47,3 +47,5 @@ Generic acoustic model with i-vectors: [[Generic_model_with_ivectors]](https://g
 Generic acoustic model without i-vectors:[[Generic_model_without_ivectors]](https://github.com/mdhaffar/Acoustic_model_personalisation/releases/tag/V.0.6.0)
 
 To extract textual informations (weights/parameters) from mdl files, please run this Kaldi command: nnet3-am-copy --raw=true --binary=false file_input.mdl file_output.mdl
+
+Personnalized Acoustic models cans also genereted using the script: [[script]](https://github.com/mdhaffar/Acoustic_model_personalisation/blob/main/FineTuning.sh) by using the generic acoustic model using ivectors [[here]](https://github.com/mdhaffar/Acoustic_model_personalisation/releases/tag/V.0.5.0) or without-ivectors [[here]](https://github.com/mdhaffar/Acoustic_model_personalisation/releases/tag/V.0.6.0)
