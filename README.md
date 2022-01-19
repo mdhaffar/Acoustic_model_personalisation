@@ -49,3 +49,12 @@ Generic acoustic model without i-vectors:[[Generic_model_without_ivectors]](http
 To extract textual informations (weights/parameters) from mdl files, please run this Kaldi command: nnet3-am-copy --raw=true --binary=false file_input.mdl file_output.mdl
 
 Personnalized Acoustic models can also be genereted using the following script: [[script]](https://github.com/mdhaffar/Acoustic_model_personalisation/blob/main/FineTuning.sh) by using the generic acoustic model with ivectors [[here]](https://github.com/mdhaffar/Acoustic_model_personalisation/releases/tag/V.0.5.0) or without-ivectors [[here]](https://github.com/mdhaffar/Acoustic_model_personalisation/releases/tag/V.0.6.0)
+
+Papers that use these model:
+
+Salima Mdhaffar, Marc Tommasi, and Yannick Estève, "Study on acoustic model personalization in a ontext of collaborative learning constrained by privacy preservation", 23th International Conference on Speech and Computer (SPECOM 2021), September 2021, ST. PETERSBURG, RUSSIA
+
+Salima Mdhaffar, Jean François Bonastre, Marc Tommasi, Natalia Tomashenko and Yannick Estève. Retrieving Speaker Information from Personalized Acoustic Models for Speech Recognition. arXiv preprint arXiv:2111.04194, 2021.
+
+Natalia Tomashenko, Salima Mdhaffar, Marc Tommasi, Yannick Estève and Jean François Bonastre. Privacy attacks for automatic speech recognition acoustic models in a federated learning framework. arXiv preprint arXiv:2111.03777, 2021.
+
