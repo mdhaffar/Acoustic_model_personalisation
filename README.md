@@ -52,9 +52,9 @@ Personnalized Acoustic models can also be genereted using the following script: 
 
 Papers that use these model:
 
-Salima Mdhaffar, Marc Tommasi, and Yannick Estève, "Study on acoustic model personalization in a ontext of collaborative learning constrained by privacy preservation", 23th International Conference on Speech and Computer (SPECOM 2021), September 2021, ST. PETERSBURG, RUSSIA
+Salima Mdhaffar, Marc Tommasi, and Yannick Estève, "Study on acoustic model personalization in a ontext of collaborative learning constrained by privacy preservation", 23th International Conference on Speech and Computer (SPECOM 2021), September 2021, ST. PETERSBURG, RUSSIA [[pdf]](https://www.researchgate.net/profile/Salima-Mdhaffar-2/publication/354758588_Study_on_Acoustic_Model_Personalization_in_a_Context_of_Collaborative_Learning_Constrained_by_Privacy_Preservation/links/6150cd94522ef665fb619620/Study-on-Acoustic-Model-Personalization-in-a-Context-of-Collaborative-Learning-Constrained-by-Privacy-Preservation.pdf)
 
-Salima Mdhaffar, Jean François Bonastre, Marc Tommasi, Natalia Tomashenko and Yannick Estève. Retrieving Speaker Information from Personalized Acoustic Models for Speech Recognition. arXiv preprint arXiv:2111.04194, 2021.
+Salima Mdhaffar, Jean François Bonastre, Marc Tommasi, Natalia Tomashenko and Yannick Estève. Retrieving Speaker Information from Personalized Acoustic Models for Speech Recognition. arXiv preprint arXiv:2111.04194, 2021. [[pdf]](https://arxiv.org/pdf/2111.04194.pdf)
 
-Natalia Tomashenko, Salima Mdhaffar, Marc Tommasi, Yannick Estève and Jean François Bonastre. Privacy attacks for automatic speech recognition acoustic models in a federated learning framework. arXiv preprint arXiv:2111.03777, 2021.
+Natalia Tomashenko, Salima Mdhaffar, Marc Tommasi, Yannick Estève and Jean François Bonastre. Privacy attacks for automatic speech recognition acoustic models in a federated learning framework. arXiv preprint arXiv:2111.03777, 2021. [[pdf]](https://arxiv.org/pdf/2111.03777.pdf)
 
